@@ -1,0 +1,129 @@
+/* general reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    color: green;
+}
+.btn{
+    color:white;
+    background: green;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: green;
+}
+.btn.outline{
+    background: transparent;
+    border: 2px solid green;
+    color: green;
+}
+.btn.outline:hover{
+    background: green;
+    color: white;
+}
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background: #f9f9f9;
+}
+.hero-text h2 {
+    font-size: 40px;
+}
+.hero-text{
+    flex: 1;
+}
+.hero-text span{
+    color: green;
+}
+.hero-img img{
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+/* about section */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 50px;
+    background: black;
+    color: #fff;
+}
+.about-img img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+.about-text h2 {
+    font-size: 28px;
+    margin: 15px;
+}
+.text2 h2 {
+    font-size: 28px;
+    margin: 15px;
+}
+/* contact */
+.contact{
+    padding: 60px 50px;
+    text-align: center;
+}
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact input,
+.contact textarea{
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact button{
+    margin-top: 10px;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: #fff;
+    margin-top: 30px;
+}
